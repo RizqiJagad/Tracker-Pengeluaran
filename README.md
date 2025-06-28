@@ -28,7 +28,7 @@ Sebuah aplikasi web interaktif yang memungkinkan Anda melacak pemasukan dan peng
 
 1.  **Clone Repository**:
     ```bash
-    git clone [https://github.com/RizqiJagad/Tracker-Pengeluaran.git](https://github.com/RizqiJagad/Tracker-Pengeluaran.git)
+    git clone (https://github.com/RizqiJagad/Tracker-Pengeluaran.git)
     ```
     (Ganti `nama-repo-anda` dengan nama *repository* aktual Anda di GitHub.)
     ```bash
@@ -38,7 +38,7 @@ Sebuah aplikasi web interaktif yang memungkinkan Anda melacak pemasukan dan peng
     Cukup buka file `index.html` di *browser* web favorit Anda. Tidak ada server lokal yang diperlukan karena ini adalah aplikasi *frontend* murni.
 
 ## 📸 Tampilan Aplikasi
-   ![Screenshot Aplikasi Tracker Keuangan](/image/View.png)
+   ![Screenshot Aplikasi Tracker Keuangan](/View.png)
 
 
 ## 💡 Ide Pengembangan Lanjutan (Opsional)

@@ -51,4 +51,4 @@ Sebuah aplikasi web interaktif yang memungkinkan Anda melacak pemasukan dan peng
 
 ---
 
-Made with ❤️ by [Nama Anda/Taqiy Rizqi Jagad Samudra]
+Made with ❤️ by Taqiy Rizqi Jagad Samudra]

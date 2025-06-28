@@ -289,5 +289,3 @@ function init() {
     populateMonthSelect();
     updateUI(); // Ini akan memanggil updateChart()
 }
-
-init();

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracker Pengeluaran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+                 <h1>Tracker Keuangan</h1>
+            <div class="balance-container">
+                <h2>Saldo Anda</h2>
+                <p id="balance">Rp0</p>
+            </div>
+            <div class="inc-exp-container">
+                <div>
+                    <h4>Pemasukan</h4>
+                    <p id="money-plus" class="money plus">
+                        <i class="fas fa-circle-up"></i> +Rp0
+                    </p>
+                </div>
+                <div>
+                    <h4>Pengeluaran</h4>
+                    <p id="money-minus" class="money minus">
+                        <i class="fas fa-circle-down"></i> Rp0
+                    </p>
+                </p>
+                </div>
+            </div>
+            <div class="form-container">
+                <h3>Tambahkan Transaksi Baru</h3>
+                <form id="transaction-form">
+                    <div class="form-control">
+                        <label for="text">Deskripsi</label>
+                        <input type="text" id="text" placeholder="Masukkan deskripsi..." required />
+                    </div>
+                    <div class="form-control">
+                        <label for="amount">Jumlah (positif: income, negatif: expense)</label>
+                        <input type="number" id="amount" placeholder="Masukkan jumlah..." required />
+                    </div>
+                    <div class="form-control">
+                        <label for="date">Tanggal</label>
+                        <input type="date" id="date" required />
+                    </div>
+                    <button class="btn">Tambah Transaksi</button>
+                </form>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="transactions-container">
+                <h3>Riwayat Transaksi</h3>
+                <div class="filter-controls">
+                    <select id="month-select">
+                        <option value="all">Semua Waktu</option>
+                    </select>
+                    <button id="current-month-btn" class="btn-small">Bulan Ini</button>
+                </div>
+                <ul id="transaction-list">
+                    </ul>
+            </div>
+            <div class="chart-container">
+                <h3>Visualisasi Pemasukan & Pengeluaran</h3>
+                <canvas id="expenseChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
